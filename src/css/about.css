@@ -1,0 +1,38 @@
+body {
+  background-color: #f0ecec;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #45b29a;
+}
+
+.about {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+p {
+  padding-top: 3rem;
+  color: #45b29a;
+}
+#mountain {
+  width: 598px;
+  height: 357px;
+}
+
+/* img {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+} */
+
+.con {
+  display: flex;
+  justify-content: center;
+}
+
+.top-cloud {
+  padding-bottom: 5rem;
+}

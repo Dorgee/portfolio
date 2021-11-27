@@ -6,15 +6,23 @@ import './css/navbar.css';
 export const Header = () => {
   return (
     <>
-      <Navbar bg='light' variant='light' expand='md'>
+      <Navbar expand='md'>
         <Container>
-          <Navbar.Brand href='#home'>Dorgee Lama</Navbar.Brand>
+          <Navbar.Brand href='#home' id='change-color'>
+            Dorgee Lama
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav className='navbar-links'>
-              <Nav.Link href='#home'>Projects</Nav.Link>
-              <Nav.Link href='#features'>About</Nav.Link>
-              <Nav.Link href='#pricing'>Contact</Nav.Link>
+              <Nav.Link href='#home' id='change-color'>
+                Projects
+              </Nav.Link>
+              <Nav.Link href='#features' id='change-color'>
+                About
+              </Nav.Link>
+              <Nav.Link href='#pricing' id='change-color'>
+                Contact
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
