@@ -1,16 +1,15 @@
 import React from 'react';
-import './css/about.css';
+import './css/landingpage.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import img1 from './images/profilepic.jpg';
 import img2 from './images/mountain.png';
 import img3 from './images/cloud1.png';
-export const About = () => {
+export const LandingPage = () => {
   return (
     <section>
       <Container className='about'>
         <Row>
           <Col>
-            <img src={img3} alt='cloud' className='top-cloud' />
+            {/* <img src={img3} alt='cloud' className='top-cloud' /> */}
             <h1>I'm Dorgee</h1>
           </Col>
           <Row>

@@ -1,0 +1,32 @@
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #11999e;
+}
+
+.about {
+  text-align: center;
+  margin-top: 7rem;
+}
+
+p {
+  padding-top: 3rem;
+  color: #11999e;
+  font-size: 30px;
+  line-height: 2;
+}
+#mountain {
+  width: 598px;
+  height: 357px;
+  padding: 0%;
+  margin: 0%;
+}
+
+.con {
+  display: flex;
+  justify-content: center;
+}
+
+.top-cloud {
+  padding-bottom: 5rem;
+}

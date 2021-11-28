@@ -1,38 +1,33 @@
-body {
-  background-color: #f0ecec;
-}
-
-h1 {
-  font-family: 'Sacramento', cursive;
-  font-size: 5.625rem;
-  color: #45b29a;
-}
-
-.about {
-  text-align: center;
-  margin-top: 8rem;
-}
-
-p {
-  padding-top: 3rem;
-  color: #45b29a;
-}
-#mountain {
-  width: 598px;
-  height: 357px;
-}
-
-/* img {
+#profile-pic {
   border-radius: 50%;
-  width: 180px;
-  height: 180px;
-} */
-
-.con {
-  display: flex;
-  justify-content: center;
+  width: 170px;
+  height: 170px;
 }
 
-.top-cloud {
-  padding-bottom: 5rem;
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#desc {
+  padding-top: 0px;
+  font-family: 'Merriweather', serif;
+  color: black;
+  width: 30%;
+  margin: auto;
+  font-size: 20px;
+}
+
+h2 {
+  color: #11999e;
+  padding-top: 13px;
+}
+
+hr {
+  background-color: white;
+  border: dotted black 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
