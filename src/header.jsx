@@ -17,7 +17,7 @@ export const Header = () => {
               <Nav.Link href='#home' id='change-color'>
                 Projects
               </Nav.Link>
-              <Nav.Link href='#features' id='change-color'>
+              <Nav.Link href='#about' id='change-color'>
                 About
               </Nav.Link>
               <Nav.Link href='#pricing' id='change-color'>
