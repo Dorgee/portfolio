@@ -1,8 +1,8 @@
 import './css/projects.css';
 import { Carousel } from 'react-bootstrap';
-import testimg from './images/test.jpg';
-import test2img from './images/test2.jpg';
-import test3img from './images/test3.jpg';
+import testimg from './images/campgroundsimage.png';
+import test2img from './images/recommerceimage.png';
+import test3img from './images/snakegame.png';
 export const Projects = () => {
   return (
     <div>
@@ -15,10 +15,10 @@ export const Projects = () => {
             <h3>
               <a href='https://campgroundreviews.herokuapp.com/'>Yelp-Camp</a>
             </h3>
-            <p>
+            {/* <p className='color'>
               Users can post a campground and other users can leave a review on
               it. Created using node, express, mongoose, and ejs.
-            </p>
+            </p> */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -27,20 +27,22 @@ export const Projects = () => {
             src={test2img}
             alt='Second slide'
           />
-          <Carousel.Caption>
-            <h3>
-              <a href='https://recommerce-front-end.herokuapp.com/'>
-                Recommerce
-              </a>
-            </h3>
+          <div className='move'>
+            <Carousel.Caption>
+              <h3>
+                <a href='https://recommerce-front-end.herokuapp.com/'>
+                  Recommerce
+                </a>
+              </h3>
 
-            <p>
-              A platform created using react and spring boot. This site allows
-              you to select the model, type, and condition of your phone. It
-              will also give you a price and if you agree to that price the api
-              will print you out a shipping label.
-            </p>
-          </Carousel.Caption>
+              {/* <p className='color-2'>
+                A platform created using react and spring boot. This site allows
+                you to select the model, type, and condition of your phone. It
+                will also give you a price and if you agree to that price the
+                api will print you out a shipping label.
+              </p> */}
+            </Carousel.Caption>
+          </div>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -52,10 +54,10 @@ export const Projects = () => {
             <h3>
               <a href='https://github.com/Dorgee/SnakeGame'>Snake</a>
             </h3>
-            <p>
+            {/* <p className='color'>
               A classic game of snake created using python. Uses concepts likes
               classes and lists.
-            </p>
+            </p> */}
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
