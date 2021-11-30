@@ -63,7 +63,7 @@ export const Projects = () => {
       </Carousel>
 
       <div class='bottom-container'>
-        <a class='footer-link' href='https://www.linkedin.com/in/dorgee-lama/'>
+        {/* <a class='footer-link' href='https://www.linkedin.com/in/dorgee-lama/'>
           LinkedIn
         </a>
         <a class='footer-link' href='https://github.com/Dorgee'>
@@ -74,7 +74,7 @@ export const Projects = () => {
           href='https://recommerce-front-end.herokuapp.com/'
         >
           Website
-        </a>
+        </a> */}
         <p class='bot'>© 2021 Dorgee Lama</p>
       </div>
     </div>
